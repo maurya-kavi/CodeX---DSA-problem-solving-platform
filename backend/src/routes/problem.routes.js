@@ -9,7 +9,7 @@ problemRoutes.post("/create-problem" , authMiddleware , checkAdmin , createProbl
 
 problemRoutes.get("/get-all-problems" , authMiddleware , getAllProblem)
 
-problemRoutes.get("/get-all/:id" , authMiddleware , getProblemById)
+problemRoutes.get("/get-problem/:id" , authMiddleware , getProblemById)
 
 problemRoutes.put("/update-problem/:id" , authMiddleware ,checkAdmin , updateProblem)   
 

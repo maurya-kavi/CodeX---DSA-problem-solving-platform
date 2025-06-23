@@ -24,10 +24,10 @@ export const useProblemStore = create((set)=>({
         }
     },
 
-    getProblemById:async()=>{
+    getProblemById:async(id)=>{
         try {
             set({isProblemLoading:true})
-            const res = await axiosInstance.get("/problems/get-problem/${id}"); 
+            const res = await axiosInstance.get(`/problems/get-problem/${id}`); 
             set({problem:res.data.problem})
             toast.success(res.data.message);
         } catch (error) {

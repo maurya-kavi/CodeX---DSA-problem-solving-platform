@@ -10,6 +10,7 @@ import { Loader } from 'lucide-react'
 import Layout from './layout/Layout'
 import AddProblem from './page/AddProblem'
 import AdminRoute from './components/AdminRoute'
+import ProblemPage from './page/ProblemPage'
 
 const App = () => {
 
@@ -40,14 +41,9 @@ const App = () => {
         element={authUser ? <HomePage/> : <Navigate to ={"/login"}/>}
         />
 
-        <Route element={<AdminRoute/>}>
-        <Route
-        path="/add-problem"
-        element={<AddProblem/>}
-        />
-        </Route>
-        
-        </Route>
+      </Route>
+
+
 
         <Route
         path='/login'
@@ -59,6 +55,17 @@ const App = () => {
         element={!authUser ? <SignUpPage/> : <Navigate to ={"/"} />}
         />
 
+        <Route 
+        path='/problem/:id'
+        element={authUser ? <ProblemPage/> : <Navigate to = {"/login"}/>}
+        />
+
+        <Route element={<AdminRoute/>}>
+        <Route
+        path="/add-problem"
+        element={<AddProblem/>}
+        />
+        </Route>
         
       </Routes>
 

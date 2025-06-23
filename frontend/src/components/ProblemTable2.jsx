@@ -23,10 +23,9 @@ const ProblemTable = ({ problems }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [isCreateModelOpen, setIsCreateModelOpen] = useState(false);
   const [isAddToPlaylistModelOpen, setIsAddToPlaylistModelOpen] = useState(false);
-  const [selectedProblemId, setSelectedProblemId] = useState(null);
 
   const { createPlaylist } = usePlaylistStore();
-  
+
   const { isDeletingProblem, onDeleteProblem } = useActions();
 
   const allTags = useMemo(() => {
@@ -66,10 +65,7 @@ const ProblemTable = ({ problems }) => {
     onDeleteProblem(id);
   };
 
-  const handleAddToPlaylist = (problemId) => {
-    setSelectedProblemId(problemId);
-    setIsAddToPlaylistModelOpen(true)
-  };
+  const handleAddToPlaylist = (id) => {};
 
   const handleCreatePlaylist = async (data) => {
     await createPlaylist(data);
@@ -244,16 +240,10 @@ const ProblemTable = ({ problems }) => {
         </button>
       </div>
 
-      {/* <CreatePlaylistModel
+      <CreatePlaylistModel
         isOpen={isCreateModelOpen}
         onClose={() => setIsCreateModelOpen(false)}
         onSubmit={handleCreatePlaylist}
-      /> */}
-
-      <AddToPlaylist
-        isOpen={isAddToPlaylistModelOpen}
-        onClose={() => setIsAddToPlaylistModelOpen(false)}
-        problemId={selectedProblemId}
       />
     </div>
   );
