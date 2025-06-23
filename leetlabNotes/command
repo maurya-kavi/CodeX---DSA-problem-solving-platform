@@ -1,0 +1,51 @@
+# 🔧 Common Terminal Commands for LeetLab
+
+## 🟩 Node & Express
+- `npm init -y` → Initialize package.json
+- `npm install express` → Install Express.js
+- `nodemon index.js` → Run backend server with live reload
+
+# env 
+- npm i dotenv
+to config env and listen on port(custom port in .env file)
+
+#Prisma
+- `npx prisma init` → Set up Prisma
+-db mein prisma client push karne se pahle , prisma.schema ready karnenge and then run common - npx prisma generate
+-npx prisma migrate dev
+
+## 🟪 Prisma + PostgreSQL
+- `npx prisma init` → Set up Prisma
+-db mein prisma client push karne se pahle , prisma.schema ready karnenge and then run common - npx prisma generate
+- `npx prisma db push` → Push schema to database
+- `npx prisma migrate dev --name init` → Create migration
+- `npx prisma studio` → Launch Prisma UI
+- `npx prisma generate` → Generate Prisma client
+
+## when getting error in syning primsa.schema with database run command :
+- npx prisma format
+-npx prisma db push
+
+##Auth
+-npm i bcryptjs
+-npm i jsonwebtoken
+-npm i cookie-parser
+- open ssl rand -hex 32 => to generate random string 
+
+## 🛠️ Judge0 (Docker)
+- `docker-compose up` → Start Judge0 API (if self-hosting)
+
+## 🧪 Zod & React Hook Form
+- `npm install react-hook-form zod @hookform/resolvers` → Form + validation setup
+
+## 🎨 Tailwind + DaisyUI
+- `npm install -D tailwindcss postcss autoprefixer` → Install Tailwind
+- `npx tailwindcss init -p` → Create config files
+- `npm install daisyui` → Add DaisyUI
+
+## 🧠 Zustand
+- `npm install zustand` → Global state management
+
+## 🧹 Other Helpful
+- `npm install` → Install all deps from package.json
+- `npm run dev` → Run your frontend/dev server (depends on setup)

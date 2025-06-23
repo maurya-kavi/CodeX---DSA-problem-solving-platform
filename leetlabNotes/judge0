@@ -1,0 +1,229 @@
+
+//Terminal output of the server
+Server is running on port 8080
+
+# Submission Results:  [
+#   { token: 'af1c0b5c-87f9-45b9-b12c-f7c6db8b1588' },
+#   { token: '104d9d2f-f828-4f15-8ada-4e62bd313b07' } 
+# ]
+# Result---- {
+#   stdout: '10\n',
+#   time: '0.073',
+#   memory: 7428,
+#   stderr: null,
+#   token: 'af1c0b5c-87f9-45b9-b12c-f7c6db8b1588',    
+#   compile_output: null,
+#   message: null,
+#   status: { id: 3, description: 'Accepted' }        
+# }
+# Result---- {
+#   stdout: '13\n',
+#   time: '0.074',
+#   memory: 7312,
+#   stderr: null,
+#   token: '104d9d2f-f828-4f15-8ada-4e62bd313b07',    
+#   compile_output: null,
+#   message: null,
+#   status: { id: 3, description: 'Accepted' }        
+# }
+# Submission Results:  [
+#   { token: '47bb10d8-470e-4776-ac0c-1b6dc9ad6361' },
+#   { token: 'e4795b19-4eec-4a1a-b49f-578245a3d8a7' } 
+# ]
+# Result---- {
+#   stdout: '10\n',
+#   time: '0.025',
+#   memory: 3316,
+#   stderr: null,
+#   token: '47bb10d8-470e-4776-ac0c-1b6dc9ad6361',    
+#   compile_output: null,
+#   message: null,
+#   status: { id: 3, description: 'Accepted' }        
+# }
+# Result---- {
+#   stdout: '13\n',
+#   time: '0.02',
+#   memory: 3348,
+#   stderr: null,
+#   token: 'e4795b19-4eec-4a1a-b49f-578245a3d8a7',    
+#   compile_output: null,
+#   message: null,
+#   status: { id: 3, description: 'Accepted' }        
+# }
+# Submission Results:  [
+#   { token: '98ae0694-830c-4bbc-997b-9b4004c6587a' },
+#   { token: '082c0d58-849d-4084-9a0c-7a47763cbe12' } 
+# ]
+# Result---- {
+#   stdout: '10\n',
+#   time: '0.102',
+#   memory: 14580,
+#   stderr: null,
+#   token: '98ae0694-830c-4bbc-997b-9b4004c6587a',    
+#   compile_output: null,
+#   message: null,
+#   status: { id: 3, description: 'Accepted' }        
+# }
+# Result---- {
+#   stdout: '13\n',
+#   time: '0.109',
+#   memory: 14872,
+#   stderr: null,
+#   token: '082c0d58-849d-4084-9a0c-7a47763cbe12',    
+#   compile_output: null,
+#   message: null,
+#   status: { id: 3, description: 'Accepted' }        
+# }
+
+# TERMINAL RESULT ON API SUCCESSFULLY TESTED OF EXECUTE-CODE
+
+# [nodemon] restarting due to changes...
+# [nodemon] starting `node src/index.js`
+# Server is running on port 8080
+# [nodemon] restarting due to changes...
+# [nodemon] starting `node src/index.js`
+# Server is running on port 8080
+# Submission Results:  [
+#   { token: '5828dd68-5b92-4d0f-a450-1314e97bce93' },
+#   { token: '131110f7-d27f-4799-8434-d4afd4d6d1ae' },
+#   { token: '8e502d82-13c6-456b-aaa6-f2db2d4fd06d' } 
+# ]
+# Result-----
+# [
+#   {
+#     stdout: '8\n',
+#     time: '0.049',
+#     memory: 7236,
+#     stderr: null,
+#     token: '5828dd68-5b92-4d0f-a450-1314e97bce93',  
+#     compile_output: null,
+#     message: null,
+#     status: { id: 3, description: 'Accepted' }      
+#   },
+#   {
+#     stdout: '15\n',
+#     time: '0.032',
+#     memory: 7444,
+#     stderr: null,
+#     token: '131110f7-d27f-4799-8434-d4afd4d6d1ae',  
+#     compile_output: null,
+#     message: null,
+#     status: { id: 3, description: 'Accepted' }      
+#   },
+#   {
+#     stdout: '20\n',
+#     time: '0.041',
+#     memory: 7256,
+#     stderr: null,
+#     token: '8e502d82-13c6-456b-aaa6-f2db2d4fd06d',  
+#     compile_output: null,
+#     message: null,
+#     status: { id: 3, description: 'Accepted' }      
+#   }
+# ]
+
+
+
+
+# execute-code conroller console output 
+
+# Test Case #1
+# Input for testcase #1: 5 3
+# Expected Output for the testcase #1: 8
+# Actual Output for testcase #1: 8
+# Matched testcase #1: true
+# Test Case #2
+# Input for testcase #2: 7 8
+# Expected Output for the testcase #2: 15
+# Actual Output for testcase #2: 15
+# Matched testcase #2: true
+# Test Case #3
+# Input for testcase #3: 6 14
+# Expected Output for the testcase #3: 20
+# Actual Output for testcase #3: 20
+# Matched testcase #3: true
+
+
+
+
+# details output jo hamne ready kiya hai in executCode controller mein with the judg) output[nodemon] starting `node src/index.js`
+
+# Server is running on port 8080
+# Submission Results:  [
+#   { token: '5c0a764b-db44-4978-a732-e38c38923862' },
+#   { token: '7357d4de-01d1-43a0-8ce5-e601d750c0e0' },
+#   { token: '9459580f-eabb-4884-91a0-a8c5841b172e' } 
+# ]
+# Result-----
+# [
+#   {
+#     stdout: '8\n',
+#     time: '0.194',
+#     memory: 7208,
+#     stderr: null,
+#     token: '5c0a764b-db44-4978-a732-e38c38923862',  
+#     compile_output: null,
+#     message: null,
+#     status: { id: 3, description: 'Accepted' }      
+#   },
+#   {
+#     stdout: '15\n',
+#     time: '0.283',
+#     memory: 7152,
+#     stderr: null,
+#     token: '7357d4de-01d1-43a0-8ce5-e601d750c0e0',  
+#     compile_output: null,
+#     message: null,
+#     status: { id: 3, description: 'Accepted' }      
+#   },
+#   {
+#     stdout: '20\n',
+#     time: '0.244',
+#     memory: 7052,
+#     stderr: null,
+#     token: '9459580f-eabb-4884-91a0-a8c5841b172e',  
+#     compile_output: null,
+#     message: null,
+#     status: { id: 3, description: 'Accepted' }      
+#   }
+# ]
+# [
+#   {
+#     testCase: 1,
+#     passed: true,
+#     stdout: '8',
+#     expected: [ '8', '15', '20' ],
+#     stderr: null,
+#     compile_output: null,
+#     status: 'Accepted',
+#     memory: '7208 KB',
+#     time: '0.194 s'
+#   },
+#   {
+#     testCase: 2,
+#     passed: true,
+#     stdout: '15',
+#     expected: [ '8', '15', '20' ],
+#     stderr: null,
+#     compile_output: null,
+#     status: 'Accepted',
+#     memory: '7152 KB',
+#     time: '0.283 s'
+#   },
+#   {
+#     testCase: 3,
+#     passed: true,
+#     stdout: '20',
+#     expected: [ '8', '15', '20' ],
+#     stderr: null,
+#     compile_output: null,
+#     status: 'Accepted',
+#     memory: '7052 KB',
+#     time: '0.244 s'
+#   }
+# ]
+# [nodemon] restarting due to changes...
+# [nodemon] restarting due to changes...
+# [nodemon] starting `node src/index.js`
+# Server is running on port 8080
+

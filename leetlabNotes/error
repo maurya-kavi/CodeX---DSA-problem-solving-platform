@@ -1,0 +1,1 @@
+# in adminroute there is some problem regarding verifying ADMIN , in console when visiting add-problem getting userAuth=null , so i  have commented out the the verification of admin in the adminRoute so for now i can visit the add-problem section
