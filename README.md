@@ -1,5 +1,5 @@
- LeetLab – A LeetCode Clone with AI Integration
-LeetLab is a full-stack coding platform inspired by LeetCode. It allows users to solve algorithm problems, run and submit code in multiple languages, track submissions, and integrate an AI assistant using Gemini for code help and explanations.
+ CodeX – A LeetCode Clone with AI Integration
+CodeX is a full-stack coding platform inspired by LeetCode. It allows users to solve algorithm problems, run and submit code in multiple languages, track submissions, and integrate an AI assistant using Gemini for code help and explanations.
 
 📦 Tech Stack Overview
 🚀 Frontend
@@ -44,7 +44,7 @@ CORS, Helmet, Morgan – Middleware for security and logging.
 bash
 Copy
 Edit
-leetlab/
+CodeX/
 │
 ├── backend/
 │   ├── src/
