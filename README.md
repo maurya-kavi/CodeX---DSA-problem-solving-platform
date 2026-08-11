@@ -1,10 +1,10 @@
-# 🚀 CodeX – AI-Powered DSA Platform
+# 🚀 CodeX – DSA Problem Solving Platform
 
-CodeX is a full-stack coding platform inspired by LeetCode. It allows users to solve algorithmic problems, compile and run code in multiple languages, track their submissions, and utilize an integrated AI assistant for real-time hints and code explanations.
+CodeX is a full-stack coding platform inspired by LeetCode. It allows users to solve algorithmic problems, compile and run code in multiple languages, track their submissions, and create custom playlist, Admin can create or add new problem and manages all the problem on the platform.
 
 ## 🌟 Project Overview
 
-This platform was built to bridge the gap between algorithmic practice and AI-assisted learning. It features a scalable Node.js/Express backend paired with a highly responsive React frontend. Code execution is securely handled via the Judge0 API, while user data and problem sets are managed using PostgreSQL and Prisma ORM.
+This platform was built to practice algorithmic problem. It features a scalable Node.js/Express backend paired with a highly responsive React frontend. Code execution is securely handled via the Judge0 API, while user data and problem sets are managed using PostgreSQL and Prisma ORM.
 
 ## 🛠️ Tech Stack
 
@@ -23,7 +23,6 @@ This platform was built to bridge the gap between algorithmic practice and AI-as
 
 ### External APIs
 * **Code Execution:** [Judge0 API](https://judge0.com/)
-* **AI Integration:** Google Gemini AI
 
 ## ✨ Key Features
 
